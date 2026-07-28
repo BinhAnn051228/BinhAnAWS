@@ -23,3 +23,6 @@ aliases:
 ### Step 1: Console Login & Region Selection
 1. Access the [AWS Management Console](https://console.aws.amazon.com/) and log in to your account.
 2. In the top-right navigation bar, switch your AWS Region to **Asia Pacific (Singapore) - ap-southeast-1**.
+
+![Switch Region to Singapore](/images/5-Workshop/img_A/image1.png)
+

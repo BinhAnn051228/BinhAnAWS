@@ -23,3 +23,6 @@ aliases:
 ### Bước 1: Đăng nhập Console và Chuyển Region
 1. Truy cập [AWS Management Console](https://console.aws.amazon.com/) và đăng nhập tài khoản của bạn.
 2. Trên góc trên bên phải thanh điều hướng, chọn Region **Asia Pacific (Singapore) - ap-southeast-1**.
+
+![Chuyển Region sang Singapore](/images/5-Workshop/img_A/image1.png)
+
