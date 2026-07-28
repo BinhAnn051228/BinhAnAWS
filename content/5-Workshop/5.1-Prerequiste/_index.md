@@ -23,10 +23,3 @@ aliases:
 ### Step 1: Console Login & Region Selection
 1. Access the [AWS Management Console](https://console.aws.amazon.com/) and log in to your account.
 2. In the top-right navigation bar, switch your AWS Region to **Asia Pacific (Singapore) - ap-southeast-1**.
-
-![Switch Region to Singapore](/images/5-Workshop/img_A/image1.png)
-
-![Verify Singapore Region](/images/5-Workshop/img_A/image2.png)
-
-> [!NOTE]
-> All workshop resources (Cognito, DynamoDB, Lambda, API Gateway, EC2) must be created consistently within the `ap-southeast-1` (Singapore) region to ensure low network latency and proper cross-service connectivity.
