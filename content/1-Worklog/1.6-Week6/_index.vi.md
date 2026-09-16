@@ -1,27 +1,27 @@
 ---
 title: "Worklog Tuần 6"
-date: 2026-05-31
+date: 2026-09-07
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
 ### Mục tiêu tuần 6:
-* Tìm hiểu kiến trúc Serverless trên AWS thông qua dịch vụ AWS Lambda.
-* Thực hành viết mã nguồn Python để tạo Lambda Function.
-* Tích hợp Lambda Function với lưu trữ S3 và cổng API Gateway.
-* Theo dõi và giám sát logs của Lambda bằng CloudWatch.
+* Xây dựng chuỗi CI/CD tự động với AWS CodePipeline và AWS CodeBuild.
+* Tích hợp bộ công cụ kiểm tra bảo mật tự động Shift-Left (Gitleaks, Bandit, Trivy, Checkov).
+* Thiết lập cơ chế kiểm soát chất lượng an ninh (Security Quality Gate) tự động chặn pipeline khi có rủi ro cao.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Tìm hiểu AWS Lambda và mô hình Serverless | 31/05/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | Thực hành viết mã và tạo Lambda Function bằng Python | 02/06/2026 | 03/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | Cấu hình kết nối Lambda với S3 (triggers) và API Gateway (endpoints) | 04/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | Kiểm tra hoạt động hệ thống và xem giám sát log bằng CloudWatch | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Tạo các IAM Service Roles (CodePipelineRole, ScanBuildRole, TerraformPlanRole, TerraformDeployRole).<br>- Áp dụng nghiêm ngặt nguyên tắc quyền hạn tối thiểu (Least Privilege).<br>- Lưu các thông tin nhạy cảm vào AWS SSM Parameter Store với SecureString. | 07/09/2026 | 07/09/2026 | Dự án thực tập |
+| 3 | - Cấu hình AWS CodeConnections liên kết GitHub repository với AWS CodePipeline.<br>- Thiết lập webhook tự động kích hoạt pipeline mỗi khi có commit mới được đẩy lên Git. | 08/09/2026 | 08/09/2026 | Dự án thực tập |
+| 4 | - Xây dựng dự án AWS CodeBuild và viết file kịch bản cấu hình `buildspec.yml`.<br>- Tích hợp công cụ Gitleaks quét lộ lọt API keys, mật khẩu và secrets trong lịch sử commit. | 09/09/2026 | 09/09/2026 | Dự án thực tập |
+| 5 | - Tích hợp Bandit thực hiện Static Application Security Testing (SAST) cho mã nguồn ứng dụng.<br>- Tích hợp Trivy quét lỗ hổng các thư viện phụ thuộc và kiểm tra file hệ thống. | 10/09/2026 | 10/09/2026 | Dự án thực tập |
+| 6 | - Tích hợp Checkov quét tuân thủ tiêu chuẩn CIS Benchmark cho mã nguồn Terraform IaC.<br>- Cấu hình chính sách tự động Fail pipeline khi phát hiện lỗ hổng nghiêm trọng (High/Critical). | 11/09/2026 | 11/09/2026 | Dự án thực tập |
 
 ### Kết quả đạt được tuần 6:
-* Hiểu cơ chế hoạt động, thanh toán và lợi ích của mô hình Serverless trên AWS.
-* Phát triển thành công mã nguồn Python chạy trực tiếp trên Lambda không cần máy chủ.
-* Cấu hình thành công trigger từ S3 và tạo API endpoints để kích hoạt Lambda qua HTTP.
-* Thành thạo kỹ năng tìm lỗi bằng cách tra cứu logs trên AWS CloudWatch.
+* Hoàn thành thiết lập phân quyền IAM chặt chẽ cho toàn bộ chuỗi CI/CD.
+* Kết nối thông suốt giữa GitHub và AWS CodePipeline thông qua AWS CodeConnections (v2).
+* Nhúng thành công 4 công cụ bảo mật chuyên dụng (Gitleaks, Bandit, Trivy, Checkov) vào môi trường container AWS CodeBuild.
+* Thiết lập thành công cổng bảo mật tự động (Security Quality Gate) ngăn chặn các rủi ro an ninh trước khi tài nguyên đám mây được khởi tạo.

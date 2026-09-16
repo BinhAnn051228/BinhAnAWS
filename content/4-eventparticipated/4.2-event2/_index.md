@@ -11,63 +11,100 @@ aliases:
   - /4-EventParticipated/4.2-event2/
 ---
 
-# Event Summary: “FCAJ Community Day”
+# EVENT 2 - AWS COMMUNITY MEETUP (PART 2)
 
-### Event Overview
-*   **Event Title**: FCAJ Community Day
-*   **Date**: June 27, 2026
-*   **Location**: 26th Floor, Bitexco Financial Tower, 02 Hai Trieu, Saigon Ward, Ho Chi Minh City
-*   **Organizer**: AWS Study Group in collaboration with FCAJ Community
-*   **Role**: Participant
+## AWS COMMUNITY MEETUP (PART 2)
 
----
+### Event Information
 
-### Event Objectives
-*   **Program Goal**: Introduce the trend of applying AI Agents (Agentic AI) to Cloud infrastructure administration and operations to automate tasks, improve system management efficiency, and optimize operational costs.
-*   **Core Message**: Present the concept of AgenticOps, the role of AI Agents in Cloud Operations, and how AI assists in monitoring, log analysis, anomaly detection, resource optimization, and workflow automation on Cloud platforms.
-*   **Value for Participants**: Gain a deeper understanding of combining AI with Cloud computing, practical AI applications in operations, and guidance on developing essential Cloud and DevOps skills.
+| Item | Details |
+| :--- | :--- |
+| **Event Name** | AWS Community Meetup (Part 2) |
+| **Time** | 08:30 – 12:00 (GMT+7) |
+| **Location** | AWS Hanoi Office – 7th Floor, Grand Terra Tower, 36 Cat Linh, Dong Da, Hanoi |
+| **Role** | Attendee |
 
 ---
 
-### Key Highlights
+## SUMMARY REPORT
 
-#### 1. Real-World Challenges
-In Cloud operations, administrators must manage multiple services, handle logs, monitor alerts, and resolve incidents under tight time constraints. As systems scale, manual management becomes increasingly complex, prone to error, and time-consuming.
+These materials provide a comprehensive perspective, transitioning from foundational principles required to navigate the cloud computing ecosystem, through deep-dive analysis and architectural server design for performance optimization. Beyond specialized technical disciplines, the meetup highlighted the vital role of cultivating a strong personal brand and professional network in cyberspace for holistic career advancement.
 
-#### 4. Demos & Case Studies
-The workshop presented practical case studies demonstrating AI integration into Cloud management workflows—from data collection and log analysis to anomaly detection and automated remediation suggestions. Participants observed how AI Agents reduce response times and boost operational precision.
+### Speakers
 
----
-
-### Key Learnings
-
-#### 1. Mindset & Methodology
-Recognized that AI serves not only as a content creation tool but also as a smart assistant in Cloud system administration. Combining domain expertise with AI elevates work performance significantly.
-
-#### 2. Technical Knowledge
-*   Understood the core concepts of **AgenticOps**.
-*   Learned the role of **AI Agents** in Cloud Operations.
-*   Understood how AI enhances **Monitoring, Logging**, and **Incident Management**.
-*   Mastered the workflow of applying AI to Cloud infrastructure administration.
-
-#### 3. Best Practices
-*   Combine AI assistance with solid foundational knowledge rather than relying solely on AI.
-*   Always review and validate AI recommendations before applying changes to production environments.
-*   Leverage AI to automate repetitive manual tasks to maximize operational throughput.
+*   **Phuong Nguyen Huu** *(Topic: The Very First Step Into Cloud)*
+*   **Quang Pham** - DevOps Engineer *(Topic: Right Server, Right Job)*
+*   **Keynote Speaker on Soft Skills** *(Topic: Building LinkedIn & Professional Personal Branding on Social Networks)*
 
 ---
 
-### Workplace Application
-*   **Current Project Application**: Explore AI integration for system monitoring, log analysis, performance tracking, and anomaly detection in AWS-based deployments.
-*   **Future Technologies to Test**: Research AWS-native AI solutions to build intelligent, self-healing Cloud systems that automate operations and lower costs.
-*   **Workflow Improvement**: Utilize AI assistants to accelerate data analysis and incident response, shortening resolution times and elevating service reliability.
+## KEY HIGHLIGHTS
+
+### Cloud Foundations
+*   Cloud computing empowers organizations to transition capital expenditures (CapEx) into variable operational expenses, granting immediate access to AWS's global physical infrastructure across Regions and Availability Zones.
+
+### Comparative Analysis of Hosting Models
+*   Detailed review of 5 primary hosting modalities: Shared Hosting, VPS, VDS, Dedicated Server, and On-Premises, correlated with matching AWS services such as AWS Amplify, Amazon EC2 T-series, EC2 Compute-optimized instances, and AWS Outposts.
+
+### Virtualization & Hardware Mechanics
+*   Architectural optimization demands a precise understanding of physical constraints, such as "CPU steal" on multi-tenant VPS environments, or performance degradation exceeding 50% when RAM configurations lack NUMA alignment on VDS systems.
+
+### Personal Branding
+*   Technology practitioners must actively foster personal branding and build a polished professional presence on platforms like LinkedIn to unlock career opportunities.
 
 ---
 
-### Event Impressions & Photos
+## KEY TAKEAWAYS
 
-![AgenticOps presentation slide](/images/4-eventparticipated/event2/slide_agenticops.jpg?v=2)
+### Right Server, Right Job
+*   No hosting architecture offers a one-size-fits-all solution; Shared Hosting prioritizes cost efficiency for smaller workloads, whereas VDS delivers sustained CPU performance through dedicated (pinned) vCPUs.
 
-![Speaker presentation at FCAJ Community Day](/images/4-eventparticipated/event2/event_hall_presentation.jpg?v=2)
+### Hybrid Cloud as a Deliberate Strategy
+*   Deploying hybrid cloud architectures via AWS Outposts is not a retrograde step, but rather an intentional architecture mandated for ultra-low latency requirements or strict local data residency compliance.
 
-![Group photo of all FCAJ Community Day participants](/images/4-eventparticipated/event2/group_photo_fcaj.png?v=2)
+### The Power of the AWS Nitro System
+*   The AWS Nitro Card offloads networking, storage, and security virtualization onto dedicated hardware accelerators, freeing up nearly 100% of host CPU and memory exclusively for customer compute instances.
+
+### Flexible Cloud Interaction
+*   Users can manage and orchestrate cloud resources seamlessly across multiple developer-friendly interfaces: the AWS Management Console, AWS CLI, and language-specific AWS SDKs.
+
+---
+
+## EVENT EXPERIENCE
+
+*   The event offered a balanced curriculum, welcoming newcomers with accessible definitions of core cloud service models (IaaS, PaaS, SaaS), while satisfying experienced DevOps and Systems engineers exploring bare-metal governance and hypervisor offloading.
+*   Moving beyond infrastructure code, the session created space for engineers to learn career-growth strategies through strategic social media communication on LinkedIn.
+
+---
+
+## LESSONS LEARNED
+
+*   **Calculate Migration Paths and TCO**: Avoid defaulting to expensive dedicated hardware out of preemptive caution; instead, map out flexible scaling pathways and evaluate 3-year Total Cost of Ownership (TCO) models.
+*   **Right-Size Resources Proportionately**: Size system capacity to precisely fulfill current workload demands before committing to unneeded horizontal or vertical expansion, safeguarding operational budgets.
+*   **Enhance Personal Branding and Communication**: Regardless of technical competence, engineering capabilities must be properly showcased and communicated through a professional digital footprint.
+
+---
+
+## EVENT PHOTOS
+
+![Slide presentation The Very First Step Into Cloud by Phuong Nguyen Huu](/images/4-eventparticipated/event2/speaker-phuong-nguyen-huu.png)
+
+*Session: "The Very First Step Into Cloud" - Speaker Phuong Nguyen Huu*
+
+---
+
+![Slide presentation Right Server, Right Job by Quang Pham](/images/4-eventparticipated/event2/speaker-quang-pham.png)
+
+*Session: "Right Server, Right Job" - Speaker Quang Pham (DevOps Engineer)*
+
+---
+
+![Slide presentation Personal Branding on LinkedIn](/images/4-eventparticipated/event2/speaker-personal-branding.png)
+
+*Session: "Building LinkedIn & Professional Personal Branding on Social Networks"*
+
+---
+
+![Group photo of speakers and participants at AWS Community Meetup Part 2](/images/4-eventparticipated/event2/group-photo-event2.png)
+
+*Speakers and attendees group photo at AWS Community Meetup (Part 2) at AWS Hanoi Office*

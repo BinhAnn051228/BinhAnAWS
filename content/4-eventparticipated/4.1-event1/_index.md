@@ -11,95 +11,101 @@ aliases:
   - /4-EventParticipated/4.1-event1/
 ---
 
-# Event Summary: “FCAJ Community”
+# EVENT 1 - AWS VIETNAM COMMUNITY MEETUP
 
-### Event Overview
-*   **Event Title**: FCAJ Community
-*   **Date**: Academic Conference (Co-organized with HUTECH University and Swinburne University of Technology)
-*   **Location**: Bitexco Financial Tower (AWS Vietnam Office)
-*   **Organizer**: AWS G3 Team in collaboration with First Cloud Journey Community
-*   **Role**: Participant
+## AWS VIETNAM COMMUNITY MEETUP
 
----
+### Event Information
 
-### Objectives & Goals
-*   Share practical path insights to become professional Cloud, Security, and DevOps Engineers.
-*   Introduce emerging technologies: Machine Learning (ML), Docker Containerization, and AI GraphRAG.
-*   Provide career orientation and key soft skills required for effective teamwork in IT projects.
+| Item | Details |
+| :--- | :--- |
+| **Event Name** | AWS Vietnam Community Meetup |
+| **Date** | Saturday, July 25, 2026 |
+| **Time** | 08:30 – 12:00 (GMT+7) |
+| **Location** | 7th Floor, Grand Terra Tower, 36 Cat Linh, Dong Da, Hanoi |
+| **Role** | Attendee |
 
 ---
+
+## SUMMARY REPORT
+
+The materials from the AWS Vietnam Community Meetup covered a broad spectrum of technology themes, spanning from core cloud computing fundamentals to cutting-edge Artificial Intelligence (AI) deployments. The central theme across all presentations focused on how Generative AI and AI agents are fundamentally reshaping software engineering, infrastructure governance, and enterprise business operations. Speakers collectively emphasized that while AI accelerates specific developer tasks by an order of magnitude, it necessitates a paradigm shift in how engineers identify bottlenecks, design system architectures, and secure automated delivery pipelines.
 
 ### Speakers
-*   **Le Hoang Gia Dai**: Senior at HUTECH University, Core Member of Team AWS G3.
-*   **Bao Huynh**: Junior Cloud Native Developer at Endava Vietnam, Founder/Head Lab of ITea Lab.
-*   **Tran Trung Vinh**: System Administrator at Central Retail Group.
-*   **Nguyen Quoc Bao**: Multiplayer & Cloud Technical Specialist.
-*   **Truong Huy Phuoc**: Team Collaboration and Soft Skills Trainer.
-*   **Viet Phat**: AI Student at Swinburne University of Technology.
+
+*   **Nam La** - Cloud Engineer *(Topic: AI Trends Through the Lens of an Infrastructure Engineer)*
+*   **Henry (Duc) Bui** - Head of Engineering, Cloud Thinker *(Topic: Ship Fast with AI, Not by AI)*
+*   **Phuong Nguyen Huu** *(Topic: The Very First Step Into Cloud)*
+*   **Tuan Vu** - AWS Community Builder *(Topic: OpenClaw - The Rise and Practice of Open-Source AI Agents)*
+*   **Nguyen Thu (Yuna)** *(Topic: From AI Trends to Business Value - Sales Track)*
+*   **Other Speakers**: Tinh Truong, Anh Pham, Thinh Nguyen, Team VIB, Duc Dao, Vy Lam.
 
 ---
 
-### Key Highlights
+## KEY HIGHLIGHTS
 
-#### 1. Machine Learning (ML) in Cyber Attack Detection
-*   **Topic**: WAF + ML for Cyber Attack Detection - Machine Learning-based Network Intrusion Detection System (NIDS) on AWS.
-*   **Speaker**: Le Hoang Gia Dai.
-*   **Content**: Introduced a Network Intrusion Detection System (NIDS) utilizing ML algorithms in conjunction with AWS WAF to bypass static rules limitations. Trained on CSE-CIC-IDS2018 benchmark datasets for real-world cyber threat mitigation.
+### AWS Cloud Fundamentals
+*   Introduction to cloud computing principles, encompassing core service delivery models (IaaS, PaaS, SaaS), deployment strategies, and the advantages of leveraging AWS global infrastructure.
 
-#### 2. Containerization with Docker
-*   **Topic**: Docker – A containerization technology.
-*   **Speaker**: Bao Huynh.
-*   **Content**: Comprehensive guide to Docker, comparing Virtual Machine and Container architectures. Explored its lightweight execution profile, resource optimization, and the "Build once, run anywhere" philosophy.
+### AI Reshaping Infrastructure
+*   AI actively automates routine operational workflows across Infrastructure as Code (IaC), AIOps, FinOps, and Cloud Security.
+*   This transformation transitions infrastructure engineers from manual operators into architects and supervisors of autonomous self-healing systems.
 
-#### 3. Sysadmin & Systems Engineering Career Pathways
-*   **Speaker**: Tran Trung Vinh.
-*   **Content**: Real-world journey from IT Helpdesk to Senior Sysadmin. Stressed Linux systems mastery and networking foundations as prerequisites for DevOps and Cloud Architecture roles.
+### AI Software Bottlenecks
+*   While AI accelerates the "inner loop" of writing code by approximately 10x, it does not inherently accelerate the "outer loop" of code review, testing, integration, and production deployment.
 
-#### 4. Multiplayer Game Development on Cloud
-*   **Topic**: Multiplayer in the Cloud - Connecting Godot Clients with AWS WebSockets.
-*   **Speaker**: Nguyen Quoc Bao.
-*   **Content**: Real-time multiplayer connection connecting Godot clients using AWS WebSockets, AWS Lambda, and DynamoDB for low-latency messaging.
+### Open-Source AI Agents
+*   The swift emergence of OpenClaw highlights how developers utilize advanced multi-agent architectures for concrete business automation such as email dispatch, Notion synchronization, and code execution.
 
-#### 5. Next-Gen AI Applications (GraphRAG)
-*   **Topic**: Build GraphRAG applications using Amazon Bedrock and Amazon Neptune.
-*   **Speaker**: Viet Phat.
-*   **Content**: Building Graph Retrieval-Augmented Generation (GraphRAG) systems with Amazon Bedrock and Amazon Neptune to enhance Large Language Model (LLM) contextual search.
-
-#### 6. Team Collaboration and Management
-*   **Speaker**: Truong Huy Phuoc.
-*   **Content**: 4 golden rules of teamwork and managing agile tasks using tools like Trello and Slack to optimize sprint delivery.
+### AI as a Co-Worker
+*   AI is no longer merely an industry buzzword; it operates as a digital coworker, empowering sales and business operations through accessible tooling such as ChatGPT, Claude, Gemini, and Amazon Q.
 
 ---
 
-### Key Learnings
+## KEY TAKEAWAYS
 
-#### 1. Technical Mindset & Methodology
-*   **Cloud Mindset**: Cloud is not just renting compute; it's designing automated, horizontally scalable systems backed by pay-as-you-go financial models.
-*   **Data Security**: Raw data preparation determines ML accuracy and detection performance.
+### Cloud Economics
+*   Cloud migration enables organizations to convert large capital expenditures for data centers into variable operating expenses, dramatically boosting agility and execution velocity.
 
-#### 2. Practical Expertise
-*   Understood how to handle imbalanced datasets when training ML classifiers.
-*   Learned basic Docker CLI syntax and real-time WebSockets integration on serverless AWS architectures.
+### New Engineering Skill Requirements
+*   To thrive in an AI-native ecosystem, infrastructure engineers must cultivate new core competencies, including prompt engineering, context management, AI code auditing, and AI/ML foundations.
 
-#### 3. Best Practices in Operations
-*   **Golden Rule**: Never patch or test system configurations directly on the Production environment.
-*   Always automate repetitive operational tasks and maintain clear technical documentation.
+### Codifying Knowledge into Infrastructure
+*   To truly ship products faster with AI, engineering teams must automate the "outer loop" by embedding organizational knowledge directly into infrastructure via living wikis, linting rules, and automated CI checks.
 
----
+### Critical Security Risks in Agents
+*   As agent capabilities expand, systemic guardrails often lag behind. Agent architectures encounter severe threats such as prompt injection and privilege escalation, mandating granular, zero-trust access controls.
 
-### Workplace Application
-*   **Current Project Application**: Dockerize the AI Resume Matching application to synchronize local developer environments with EC2 deployments. Configure AWS WAF rules to protect the Load Balancer against SQL injection and XSS threats.
-*   **Next Technologies to Test**: Integrate Amazon Bedrock API for CV parsing and automated interview questions generation on Resume Fit.
-*   **Workflow Improvement**: Implement real-time network threat monitoring dashboards.
+### AI Multiplying Verification
+*   Mission-critical code should not bypass AI; rather, AI should be leveraged exhaustively to scale up verification frameworks, automated test suites, and test harnesses surrounding core software.
 
 ---
 
-### Event Impressions & Photos
+## EVENT EXPERIENCE
 
-![Machine Learning (ML) Cyber Attack Detection by Le Hoang Gia Dai](/images/4-eventparticipated/event1/waf_ml_intrusion_detection.png?v=2)
+*   The meetup provided an end-to-end technological roadmap, catering both to newcomers looking to understand cloud basics and AWS Free Tier access, as well as experienced practitioners exploring frontiers in AI agents and DevSecOps.
+*   Attendees experienced live demonstrations of applied AI—from natural language Terraform module generation to autonomous multi-agent workflows that record meetings and summarize action items without human intervention.
+*   The sessions effectively bridged the gap between deep technical implementation and macroscopic business strategy, ensuring actionable insights for both technical and commercial roles.
 
-![Docker Containerization by Bao Huynh](/images/4-eventparticipated/event1/docker_containerization.png?v=2)
+---
 
-![Multiplayer Godot WebSockets by Nguyen Quoc Bao](/images/4-eventparticipated/event1/multiplayer_websockets_godot.png?v=2)
+## LESSONS LEARNED
 
-![GraphRAG with Amazon Bedrock by Viet Phat](/images/4-eventparticipated/event1/graphrag_amazon_bedrock.png?v=2)
+*   **Focus on the Engineer, Not the Agent**: The ultimate goal of integrating AI into development is not merely to construct a superpowered agent, but to cultivate a superpowered engineer who remains the definitive author and owner of the system.
+*   **Trust Must Be Enforced, Not Assumed**: Relying indiscriminately on community-contributed AI agent tools introduces severe supply chain vulnerabilities. Trust in agentic systems must be explicitly enforced via sandboxing and zero-trust policies.
+*   **Plan for AI Failure Modes**: Transitioning toward AI-native infrastructure entails dependencies. Engineering teams must erect resilient guardrails, enforce strictly bounded permissions, and prepare deterministic rollback mechanisms for aberrant AI actions.
+*   **Rethinking AI Memory**: Current AI "memory" often reduces to superficial prompt appending, resulting in context window pollution and degraded retrieval accuracy. True agent memory demands structured representations, adaptive forgetting mechanisms, and privacy-first design.
+
+---
+
+## EVENT PHOTOS
+
+![Event Poster: AWS Vietnam Community Meetup - AI Revolution & Open Claw](/images/4-eventparticipated/event1/poster-event1.png)
+
+*Event Poster: AWS Vietnam Community Meetup - AI Revolution & Open Claw*
+
+---
+
+![Speakers and attendees group photo at AWS Hanoi office](/images/4-eventparticipated/event1/group-photo-event1.png)
+
+*Speakers and attendees group photo at AWS Hanoi office (7th Floor, Grand Terra Tower)*

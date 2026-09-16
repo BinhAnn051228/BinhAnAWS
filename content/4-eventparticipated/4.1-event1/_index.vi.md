@@ -11,109 +11,101 @@ aliases:
   - /4-EventParticipated/4.1-event1/
 ---
 
-# Bài thu hoạch “FCAJ Community”
+# EVENT 1 - AWS VIETNAM COMMUNITY MEETUP
 
-### Thông tin chung về sự kiện
-*   **Tên Sự Kiện**: FCAJ Community
-*   **Thời gian tổ chức**: Ngày hội học thuật (Phối hợp cùng Đại học HUTECH và Đại học Công nghệ Swinburne)
-*   **Địa điểm tổ chức**: Tòa nhà Bitexco (AWS Vietnam Office)
-*   **Đơn vị tổ chức**: Team AWS G3 phối hợp cùng cộng đồng First Cloud Journey
-*   **Vai trò tham gia**: Người tham dự
+## AWS VIETNAM COMMUNITY MEETUP
 
----
+### Thông tin sự kiện (Event Information)
 
-### Mục đích & Mục tiêu
-*   Chia sẻ các kiến thức thực tế về lộ trình phát triển để trở thành kỹ sư Cloud, chuyên gia bảo mật và kỹ sư DevOps chuyên nghiệp.
-*   Cập nhật và giới thiệu các xu hướng công nghệ mới nổi bao gồm Machine Learning (ML), Docker, và Trí tuệ nhân tạo (AI GraphRAG).
-*   Định hướng nghề nghiệp và chia sẻ các kỹ năng mềm quan trọng để làm việc hiệu quả trong môi trường dự án công nghệ thông tin.
+| Mục | Chi tiết |
+| :--- | :--- |
+| **Tên sự kiện (Event Name)** | AWS Vietnam Community Meetup |
+| **Ngày tổ chức (Date)** | Thứ Bảy, ngày 25/07/2026 |
+| **Thời gian (Time)** | 08:30 – 12:00 (GMT+7) |
+| **Địa điểm (Location)** | Tầng 7, Grand Terra Tower, 36 Cát Linh, Đống Đa, Hà Nội |
+| **Vai trò (Role)** | Người tham dự (Attendee) |
 
 ---
 
-### Danh Sách Diễn Giả
-*   **Lê Hoàng Gia Đại**: Sinh viên năm cuối ĐH HUTECH, thành viên chủ chốt của Team AWS G3.
-*   **Bao Huynh**: Junior Cloud Native Developer tại Endava Vietnam, đồng thời là Founder/Head Lab của ITea Lab.
-*   **Trần Trung Vinh**: System Administrator tại Central Retail Group.
-*   **Nguyễn Quốc Bảo**: Chuyên gia kỹ thuật trong mảng Multiplayer và Cloud.
-*   **Trương Huy Phước**: Chuyên gia đào tạo về kỹ năng làm việc nhóm.
-*   **Việt Phát**: Sinh viên chuyên ngành Trí tuệ nhân tạo (AI) tại ĐH Swinburne.
+## BÁO CÁO TÓM TẮT (SUMMARY REPORT)
+
+Các tài liệu từ sự kiện AWS Vietnam Community Meetup bao quát một phạm vi rộng lớn các chủ đề công nghệ, từ các khái niệm điện toán đám mây nền tảng đến các triển khai Trí tuệ Nhân tạo (AI) tiên tiến. Chủ đề cốt lõi xuyên suốt các phiên trình bày tập trung vào cách Generative AI và các AI agents đang định hình lại cơ bản việc phát triển phần mềm, quản lý hạ tầng và hoạt động kinh doanh. Các bài thuyết trình cùng nhấn mạnh rằng mặc dù AI làm tăng tốc đáng kể một số tác vụ nhất định, nó cũng đòi hỏi một sự thay đổi lớn trong cách các kỹ sư quản lý điểm nghẽn, thiết kế kiến trúc hệ thống và bảo mật các quy trình tự động.
+
+### Danh sách Diễn giả (Speakers)
+
+*   **Nam Lã** - Cloud Engineer *(Chủ đề: AI Trends Through the Lens of an Infrastructure Engineer)*
+*   **Henry (Đức) Bùi** - Head of Engineering, Cloud Thinker *(Chủ đề: Ship Fast with AI, Not by AI)*
+*   **Phương Nguyễn Hữu** *(Chủ đề: The Very First Step Into Cloud)*
+*   **Tuấn Vũ** - AWS Community Builder *(Chủ đề: OpenClaw - The Rise and Practice of Open-Source AI Agents)*
+*   **Nguyễn Thu (Yuna)** *(Chủ đề: Từ xu hướng AI đến giá trị doanh nghiệp - Sales Track)*
+*   **Các diễn giả khác**: Tinh Truong, Anh Pham, Thinh Nguyen, Team VIB, Duc Dao, Vy Lam.
 
 ---
 
-### Nội Dung Nổi Bật
+## ĐIỂM NỔI BẬT (KEY HIGHLIGHTS)
 
-#### 1. Bảo mật mạng ứng dụng Machine Learning (ML)
-*   **Chuyên đề**: WAF + ML for Cyber Attack Detection - Machine Learning-based Network Intrusion Detection System (NIDS) on AWS.
-*   **Diễn giả**: Lê Hoàng Gia Đại.
-*   **Nội dung**: Giới thiệu hệ thống phát hiện xâm nhập mạng (NIDS) dựa trên thuật toán ML kết hợp với AWS WAF nhằm khắc phục những lỗ hổng của các quy tắc (rules) tĩnh truyền thống. Sử dụng bộ dữ liệu chuẩn học thuật CSE-CIC-IDS2018 để huấn luyện mô hình phát hiện tấn công mạng thực tế.
+### Nền tảng AWS Cloud
+*   Giới thiệu về điện toán đám mây bao gồm các mô hình dịch vụ cơ bản (IaaS, PaaS, SaaS), các chiến lược triển khai và lợi ích của việc tận dụng hạ tầng toàn cầu của AWS.
 
-#### 2. Công nghệ Containerization với Docker
-*   **Chuyên đề**: Docker – A containerization technology.
-*   **Diễn giả**: Bao Huynh.
-*   **Nội dung**: Giới thiệu chi tiết về công nghệ Docker, so sánh kiến trúc giữa máy ảo (Virtual Machine) và Container. Nhấn mạnh tính gọn nhẹ, tối ưu tài nguyên phần cứng và triết lý “Build once, run anywhere” của Docker trong phát triển phần mềm hiện đại.
+### AI Định Hình Lại Hạ Tầng
+*   AI đang tích cực tự động hóa các hoạt động thường nhật trên Infrastructure as Code (IaC), AIOps, FinOps và Security. 
+*   Sự chuyển dịch này đang biến các kỹ sư hạ tầng từ những người vận hành thủ công thành những người thiết kế và giám sát các hệ thống tự quản.
 
-#### 3. Lộ trình sự nghiệp Hệ thống & Sysadmin
-*   **Diễn giả**: Trần Trung Vinh.
-*   **Nội dung**: Chia sẻ hành trình thực tế từ vị trí IT Helpdesk tiến lên Senior Sysadmin. Diễn giả nhấn mạnh việc làm chủ hệ điều hành Linux và kiến thức mạng (Networking) là nền tảng bắt buộc để phát triển lên DevOps hay Cloud Architect.
+### Điểm Nghẽn Phần Mềm AI
+*   Mặc dù AI tăng tốc "vòng lặp bên trong" (inner loop) của việc viết code lên khoảng 10 lần, nó không tự động làm tăng tốc "vòng lặp bên ngoài" (outer loop) của việc đánh giá, tích hợp và triển khai code.
 
-#### 4. Phát triển Game Multiplayer trên nền tảng Cloud
-*   **Chuyên đề**: Multiplayer in the Cloud - Connecting Godot Clients with AWS WebSockets.
-*   **Diễn giả**: Nguyễn Quốc Bảo.
-*   **Nội dung**: Giải pháp sử dụng AWS WebSockets kết hợp AWS Lambda và DynamoDB làm cầu nối truyền tin thời gian thực giữa các Godot Game Client với độ trễ cực thấp.
+### Open-Source AI Agents
+*   Sự trỗi dậy nhanh chóng của OpenClaw làm nổi bật cách các nhà phát triển đang sử dụng các kiến trúc đa tác nhân tiên tiến cho các nhiệm vụ thực tế như gửi email, đồng bộ hóa Notion và thực thi mã code.
 
-#### 5. Trí tuệ nhân tạo thế hệ mới (GraphRAG)
-*   **Chuyên đề**: Build GraphRAG applications using Amazon Bedrock and Amazon Neptune.
-*   **Diễn giả**: Việt Phát.
-*   **Nội dung**: Xây dựng ứng dụng GraphRAG (Graph Retrieval-Augmented Generation) tận dụng sức mạnh tính toán của Amazon Bedrock và cơ sở dữ liệu đồ thị Amazon Neptune để tối ưu hóa khả năng truy xuất thông tin của mô hình ngôn ngữ lớn (LLM).
-
-#### 6. Nghệ thuật làm việc nhóm hiệu quả
-*   **Diễn giả**: Trương Huy Phước.
-*   **Nội dung**: Chia sẻ 4 quy tắc vàng trong cộng tác nhóm và giới thiệu các công cụ quản lý dự án phổ biến như Trello và Slack để tối ưu hóa năng suất làm việc của team.
+### AI Như Một Đồng Nghiệp
+*   AI không còn chỉ là một xu hướng trong ngành mà còn đóng vai trò như một đồng nghiệp kỹ thuật số, trao quyền cho hoạt động bán hàng và kinh doanh thông qua các công cụ dễ tiếp cận như ChatGPT, Claude, Gemini và AWS Q.
 
 ---
 
-### Những Gì Học Được
+## BÀI HỌC RÚT RA CHÍNH (KEY TAKEAWAYS)
 
-#### 1. Tư duy và phương pháp kỹ thuật
-*   **Cloud Mindset**: Điện toán đám mây không chỉ là thuê hạ tầng, mà là tư duy thiết kế hệ thống tự động hóa, khả năng co giãn linh hoạt và mô hình chi trả theo thực tế sử dụng (pay-as-you-go).
-*   **Bảo mật dữ liệu**: Chất lượng dữ liệu đầu vào quyết định trực tiếp đến độ chính xác và hiệu suất của các mô hình Machine Learning phát hiện mã độc.
+### Kinh Tế Đám Mây
+*   Việc chuyển đổi lên đám mây cho phép các tổ chức đổi các khoản đầu tư lớn về vốn cho trung tâm dữ liệu thành chi phí biến đổi, làm tăng đáng kể tốc độ và sự linh hoạt của tổ chức.
 
-#### 2. Kiến thức thực tiễn
-*   Hiểu cách xử lý vấn đề mất cân bằng dữ liệu (imbalanced data) khi huấn luyện mô hình ML.
-*   Nắm vững các lệnh Docker CLI cơ bản và cơ chế giao tiếp thời gian thực WebSockets trên hạ tầng AWS Serverless.
+### Yêu Cầu Kỹ Năng Kỹ Sư Mới
+*   Để phát triển trong một thế giới nguyên bản AI, các kỹ sư hạ tầng phải xây dựng các năng lực mới, bao gồm kỹ thuật viết prompt và ngữ cảnh, kiểm tra mã do AI tạo ra và hiểu biết về AI/ML.
 
-#### 3. Best practices khi vận hành
-*   **Nguyên tắc vận hành**: Tuyệt đối không thử nghiệm (test) cấu hình trực tiếp trên môi trường Production để bảo toàn độ sẵn sàng cao của hệ thống.
-*   Luôn tự động hóa các tác vụ lặp đi lặp lại và ghi chép tài liệu kỹ thuật (documentation) đầy đủ, rõ ràng.
+### Mã Hóa Kiến Thức Thành Hạ Tầng
+*   Để thực sự phát hành sản phẩm nhanh hơn với AI, các đội ngũ kỹ sư phải tự động hóa "vòng lặp bên ngoài" bằng cách mã hóa kiến thức trực tiếp vào hạ tầng của họ thông qua các wiki động (living wikis), quy tắc lint và kiểm tra tích hợp liên tục (CI checks).
 
----
+### Rủi Ro Bảo Mật Nghiêm Trọng Trong Agents
+*   Khi khả năng của agent mở rộng, các ranh giới hệ thống thường không bắt kịp. Các hệ thống agent đối mặt với những rủi ro nghiêm trọng như lỗ hổng prompt injection và leo thang đặc quyền, đòi hỏi phải có kiểm soát truy cập nghiêm ngặt và chi tiết.
 
-### Ứng Dụng Vào Công Việc
-*   **Áp dụng cho dự án hiện tại**: Triển khai Docker hóa toàn bộ source code của ứng dụng AI Resume Matching để đồng bộ hóa môi trường local của nhóm với môi trường chạy trên EC2. Thiết lập AWS WAF bảo vệ cổng Load Balancer khỏi các tấn công web phổ biến như SQL Injection hay Cross-Site Scripting (XSS).
-*   **Công nghệ thử nghiệm tiếp theo**: Thử nghiệm tích hợp Amazon Bedrock để tăng cường độ chính xác cho tính năng phân tích CV và sinh câu hỏi phỏng vấn của Resume Fit.
-*   **Cải thiện quy trình làm việc**: Xây dựng Dashboard giám sát thời gian thực giúp tăng cường khả năng hiển thị mối đe dọa (threat visibility) cho hệ thống mạng.
+### AI Nhân Số Hóa Việc Xác Minh
+*   Các mã quan trọng (critical code) không nên lảng tránh AI; thay vào đó, AI nên được sử dụng triệt để nhằm nhân rộng các quy trình xác minh (như testing và harnesses) xung quanh phần mềm cốt lõi.
 
 ---
 
-### Trải Nghiệm Trong Sự Kiện
-*   **Thực hành sinh động**: Xem trực tiếp demo hệ thống NIDS phát hiện tấn công, thao tác chạy container Docker và kết nối thời gian thực giữa hai client game Godot qua Cloud.
-*   **Kết nối cộng đồng**: Trao đổi trực tiếp và kết nối LinkedIn với các diễn giả có kinh nghiệm làm việc tại các tập đoàn lớn (Endava, Central Retail).
-*   **Ấn tượng nhất**: Sự kết hợp hoàn hảo giữa các dịch vụ Cloud AWS và công nghệ AI/ML để giải quyết trực tiếp các thách thức thực tế về bảo mật và vận hành hệ thống.
+## TRẢI NGHIỆM SỰ KIỆN (EVENT EXPERIENCE)
+
+*   Sự kiện mang đến một hành trình công nghệ toàn diện, phục vụ cả những người mới muốn hiểu những điều cơ bản về đám mây và truy cập tín dụng AWS Free Tier, cũng như các nhà phát triển dày dạn kinh nghiệm khám phá những công nghệ tiên tiến nhất của AI agents và DevSecOps.
+*   Người tham dự được tiếp xúc với các màn trình diễn thực tế về khả năng của AI, từ việc tạo module Terraform bằng ngôn ngữ tự nhiên đến việc triển khai các luồng công việc đa tác nhân (multi-agent) có thể tự động ghi lại cuộc họp và phân phối bản tóm tắt mà không cần sự can thiệp của con người.
+*   Các phiên trình bày đã thu hẹp thành công khoảng cách giữa triển khai kỹ thuật sâu sắc và chiến lược kinh doanh vĩ mô, đảm bảo rằng cả đội ngũ kỹ thuật và hoạt động bán hàng đều có thể rút ra những hiểu biết có tính ứng dụng cao.
 
 ---
 
-### Bài Học Rút Ra
-*   **Tầm quan trọng của ML trong bảo mật**: Việc bảo vệ hệ thống chỉ dựa vào chữ ký tĩnh (signature-based) là không đủ trước các mối đe dọa Zero-day; cần tích hợp ML để phát hiện hành vi bất thường.
-*   **Thực hành là chìa khóa**: Điểm xuất phát không quan trọng, quan trọng là sự kiên trì thực hành lab và xây dựng các dự án thực tế thay vì chỉ tập trung học lý thuyết để lấy chứng chỉ.
-*   **Định hướng nghề nghiệp**: Tập trung làm chủ 1-2 kỹ năng cốt lõi trước khi mở rộng, xây dựng Portfolio cá nhân vững chắc thông qua các dự án thực tiễn đã chạy thành công.
+## BÀI HỌC KINH NGHIỆM (LESSONS LEARNED)
+
+*   **Tập Trung Vào Kỹ Sư, Không Phải Agent**: Mục tiêu của việc tích hợp AI vào phát triển không phải là xây dựng một siêu tác nhân (superpowered agent), mà là xây dựng một siêu kỹ sư (superpowered engineer) vẫn đóng vai trò là tác giả của hệ thống.
+*   **Niềm Tin Phải Được Thực Thi, Không Phải Giả Định**: Dựa vào các kỹ năng AI do cộng đồng xây dựng gây ra rủi ro chuỗi cung ứng nghiêm trọng. Sự tin cậy trong các hệ thống agent phải được thực thi rõ ràng thông qua các chính sách sandboxing và zero-trust.
+*   **Lên Kế Hoạch Cho Sự Phụ Thuộc Vào AI**: Chuyển đổi sang hạ tầng AI-native mang lại rủi ro phụ thuộc lớn. Các đội ngũ phải triển khai các rào chắn bảo vệ (guardrails) mạnh mẽ, quyền hạn được giới hạn rõ ràng và kế hoạch khôi phục (rollback) cho các hành động lỗi của AI.
+*   **Tư Duy Lại Về Bộ Nhớ AI**: "Bộ nhớ" AI hiện tại thường chỉ là việc bổ sung prompt, dẫn đến việc quá tải ngữ cảnh và truy xuất không đáng tin cậy. Bộ nhớ agent thực sự đòi hỏi phải có biểu diễn cấu trúc, cơ chế quên thích ứng (adaptive forgetting) và thiết kế có ý thức về quyền riêng tư.
 
 ---
 
-### Một số hình ảnh khi tham gia sự kiện
+## HÌNH ẢNH SỰ KIỆN (EVENT PHOTOS)
 
-![Chuyên đề bảo mật mạng ứng dụng Machine Learning (ML) của diễn giả Lê Hoàng Gia Đại](/images/4-eventparticipated/event1/waf_ml_intrusion_detection.png?v=2)
+![Poster sự kiện AWS Vietnam Community Meetup - AI Revolution & Open Claw](/images/4-eventparticipated/event1/poster-event1.png)
 
-![Chuyên đề Công nghệ Containerization với Docker của diễn giả Bao Huynh](/images/4-eventparticipated/event1/docker_containerization.png?v=2)
+*Poster sự kiện AWS Vietnam Community Meetup - AI Revolution & Open Claw*
 
-![Chuyên đề Phát triển Game Multiplayer trên nền tảng Cloud của diễn giả Nguyễn Quốc Bảo](/images/4-eventparticipated/event1/multiplayer_websockets_godot.png?v=2)
+---
 
-![Chuyên đề Trí tuệ nhân tạo thế hệ mới (GraphRAG) của diễn giả Việt Phát](/images/4-eventparticipated/event1/graphrag_amazon_bedrock.png?v=2)
+![Toàn thể diễn giả và thành viên tham dự tại văn phòng AWS Hà Nội](/images/4-eventparticipated/event1/group-photo-event1.png)
+
+*Toàn thể diễn giả và thành viên tham dự tại văn phòng AWS Hà Nội (Tầng 7, Grand Terra Tower)*

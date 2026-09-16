@@ -11,81 +11,100 @@ aliases:
   - /4-EventParticipated/4.2-event2/
 ---
 
-# Bài thu hoạch “FCAJ Community Day”
+# EVENT 2 - AWS COMMUNITY MEETUP (PHẦN 2)
 
-### Thông tin chung về sự kiện
-*   **Tên Sự Kiện**: FCAJ Community Day
-*   **Thời gian tổ chức**: 27-06-2026
-*   **Địa điểm tổ chức**: Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-*   **Đơn vị tổ chức**: AWS Study Group phối hợp cùng cộng đồng FCAJ
-*   **Vai trò tham gia**: Người tham dự
+## AWS COMMUNITY MEETUP (PHẦN 2)
 
----
+### Thông tin sự kiện (Event Information)
 
-### Mục đích của sự kiện
-*   **Mục tiêu của chương trình**: Giới thiệu xu hướng ứng dụng AI Agent (Agentic AI) vào quá trình quản trị và vận hành hạ tầng Cloud nhằm tự động hóa các tác vụ, nâng cao hiệu quả quản lý hệ thống và tối ưu chi phí vận hành.
-*   **Nội dung chính muốn truyền tải**: Giới thiệu khái niệm AgenticOps, vai trò của AI Agent trong Cloud Operations, cách AI hỗ trợ giám sát hệ thống, phân tích log, phát hiện sự cố, tối ưu tài nguyên và tự động hóa quy trình vận hành trên nền tảng Cloud.
-*   **Giá trị dành cho người tham dự**: Giúp người tham dự hiểu được xu hướng kết hợp AI với Cloud, nắm được các ứng dụng thực tế của AI trong vận hành hệ thống và định hướng phát triển các kỹ năng cần thiết trong lĩnh vực Cloud và DevOps.
+| Mục | Chi tiết |
+| :--- | :--- |
+| **Tên sự kiện (Event Name)** | AWS Community Meetup (Phần 2) |
+| **Thời gian (Time)** | 08:30 – 12:00 (GMT+7) |
+| **Địa điểm (Location)** | Văn phòng AWS Hà Nội – Tầng 7, Grand Terra Tower, 36 Cát Linh, Đống Đa, Hà Nội |
+| **Vai trò (Role)** | Người tham dự (Attendee) |
 
 ---
 
-### Nội dung nổi bật
+## BÁO CÁO TÓM TẮT (SUMMARY REPORT)
 
-#### 1. Tổng quan vấn đề thực tế
-Trong quá trình vận hành hạ tầng Cloud, người quản trị phải theo dõi nhiều dịch vụ, xử lý log, cảnh báo, giám sát tài nguyên và khắc phục sự cố trong thời gian ngắn. Khi quy mô hệ thống ngày càng lớn, việc quản lý thủ công trở nên phức tạp, dễ xảy ra sai sót và tiêu tốn nhiều thời gian.
+Các tài liệu này cung cấp một góc nhìn toàn diện, từ những bước nền tảng để làm quen với hệ sinh thái điện toán đám mây, cho đến việc đi sâu vào phân tích và thiết kế kiến trúc máy chủ để tối ưu hóa hiệu năng. Ngoài khía cạnh kỹ thuật chuyên sâu, nội dung sự kiện còn nhấn mạnh tầm quan trọng của việc xây dựng hình ảnh cá nhân và mạng lưới quan hệ chuyên nghiệp trên không gian mạng để phát triển sự nghiệp toàn diện.
 
-#### 4. Demo và Case Study thực tế
-Workshop trình bày các ví dụ về việc ứng dụng AI vào quản lý hệ thống Cloud, từ quá trình thu thập dữ liệu vận hành, phân tích log, phát hiện sự cố cho đến đề xuất phương án xử lý. Thông qua các tình huống thực tế, người tham dự hiểu rõ hơn cách AI Agent hỗ trợ giảm thời gian phản hồi, tăng độ chính xác trong vận hành và nâng cao hiệu quả quản trị hạ tầng Cloud.
+### Danh sách Diễn giả (Speakers)
 
----
-
-### Những gì học được
-
-#### 1. Tư duy và phương pháp
-Hiểu được AI không chỉ là công cụ hỗ trợ tạo nội dung mà còn có thể trở thành trợ lý thông minh trong việc quản trị hệ thống Cloud. Việc kết hợp giữa kiến thức chuyên môn và AI sẽ giúp nâng cao hiệu quả công việc.
-
-#### 2. Kiến thức kỹ thuật
-*   Hiểu khái niệm **AgenticOps**.
-*   Biết vai trò của **AI Agent** trong Cloud Operations.
-*   Hiểu cách AI hỗ trợ **Monitoring, Logging** và **Incident Management**.
-*   Nắm được quy trình ứng dụng AI trong quản trị hạ tầng Cloud.
-
-#### 3. Best Practices
-*   Kết hợp AI với kiến thức nền tảng thay vì phụ thuộc hoàn toàn vào AI.
-*   Luôn giám sát và kiểm tra kết quả do AI đề xuất trước khi áp dụng vào hệ thống thực tế.
-*   Tận dụng AI để tự động hóa các công việc lặp lại nhằm nâng cao hiệu suất vận hành.
-
-#### 4. Kinh nghiệm thực tế
-Workshop cho thấy AI đang trở thành xu hướng quan trọng trong lĩnh vực Cloud Computing. Người làm Cloud cần liên tục cập nhật kiến thức mới để thích nghi với sự phát triển của AI và các công nghệ tự động hóa.
+*   **Phương Nguyễn Hữu** *(Chủ đề: The Very First Step Into Cloud)*
+*   **Quang Pham** - DevOps Engineer *(Chủ đề: Right Server, Right Job)*
+*   **Diễn giả chuyên đề Kỹ năng mềm** *(Chủ đề: Xây dựng LinkedIn và hình ảnh chuyên nghiệp trên MXH - Personal Branding)*
 
 ---
 
-### Ứng dụng vào công việc
-*   **Áp dụng cho dự án hiện tại**: Có thể nghiên cứu áp dụng AI để hỗ trợ giám sát hệ thống, phân tích log, theo dõi hiệu năng và phát hiện sự cố trong các dự án triển khai trên nền tảng AWS.
-*   **Công nghệ muốn thử nghiệm tiếp theo**: Tìm hiểu thêm về các giải pháp AI tích hợp với AWS nhằm xây dựng hệ thống Cloud thông minh, tự động hóa quy trình quản trị và tối ưu chi phí vận hành.
-*   **Cải thiện quy trình làm việc**: Tận dụng AI để hỗ trợ theo dõi hệ thống, phân tích dữ liệu vận hành và đề xuất phương án xử lý nhanh hơn, từ đó giảm thời gian xử lý sự cố và nâng cao chất lượng dịch vụ.
+## ĐIỂM NỔI BẬT (KEY HIGHLIGHTS)
+
+### Nền tảng Đám mây (Cloud Foundations)
+*   Đám mây cho phép người dùng chuyển đổi chi phí đầu tư hạ tầng (CapEx) sang chi phí biến đổi (Variable Expense) và dễ dàng tiếp cận hạ tầng vật lý toàn cầu (Regions, Availability Zones) của AWS.
+
+### Phân Tích Các Mô Hình Hosting
+*   Có 5 loại hình lưu trữ chính gồm Shared Hosting, VPS, VDS, Dedicated Server, và On-Premise, đi kèm với các dịch vụ tương ứng trên AWS như Amplify, EC2 T-series, EC2 Compute-optimized và Outposts.
+
+### Cơ Chế Ảo Hóa & Phần Cứng
+*   Việc tối ưu hóa kiến trúc đòi hỏi phải hiểu rõ các giới hạn như hiện tượng "CPU steal" trên VPS, hoặc sự sụt giảm hơn 50% hiệu suất nếu RAM không được đồng bộ NUMA (NUMA-aligned) trên máy chủ VDS.
+
+### Xây Dựng Thương Hiệu Cá Nhân (Personal Branding)
+*   Kỹ sư công nghệ cần quan tâm đến "Personal Branding" và cách xây dựng một hồ sơ chuyên nghiệp trên các nền tảng mạng xã hội như LinkedIn.
 
 ---
 
-### Trải nghiệm trong sự kiện
-*   **Học hỏi từ chương trình**: Hiểu rõ hơn về xu hướng kết hợp AI với Cloud Computing và tầm quan trọng của việc tự động hóa trong quản trị hệ thống hiện đại.
-*   **Trải nghiệm thực hành**: Quan sát các ví dụ và mô hình ứng dụng AI vào vận hành Cloud giúp hình dung rõ hơn cách triển khai trong môi trường doanh nghiệp.
-*   **Giao lưu và kết nối**: Có cơ hội trao đổi với những người quan tâm đến Cloud và AI, mở rộng kiến thức cũng như học hỏi thêm nhiều kinh nghiệm thực tế trong lĩnh vực Cloud Computing.
-*   **Điều ấn tượng nhất**: Ấn tượng nhất là khả năng AI Agent có thể hỗ trợ người quản trị Cloud trong việc phân tích dữ liệu, phát hiện sự cố và đề xuất phương án xử lý gần như theo thời gian thực, góp phần nâng cao hiệu quả vận hành hệ thống.
+## BÀI HỌC RÚT RA CHÍNH (KEY TAKEAWAYS)
+
+### Chọn Đúng Máy Chủ Cho Từng Tác Vụ
+*   Không có giải pháp lưu trữ nào là hoàn hảo cho mọi bài toán; ví dụ Shared hosting ưu tiên tiết kiệm chi phí cho các trang web nhỏ, trong khi VDS cung cấp hiệu năng CPU ổn định vì các vCPU được cấp phát độc quyền (pinned).
+
+### Đám Mây Lai (Hybrid Cloud) Là Một Chiến Lược Có Chủ Đích
+*   Việc sử dụng đám mây lai (thông qua AWS Outposts) không phải là bước lùi, mà là cấu trúc bắt buộc đối với các khối lượng công việc đòi hỏi độ trễ cực thấp hoặc bị ràng buộc bởi luật lưu trữ dữ liệu tại chỗ.
+
+### Sức Mạnh Của Hệ Thống AWS Nitro
+*   Nitro Card giúp giải phóng 100% tài nguyên CPU và bộ nhớ cho máy ảo (customer instances) bằng cách chuyển giao các tác vụ mạng, lưu trữ và bảo mật sang các thiết bị phần cứng chuyên dụng.
+
+### Tương Tác Đám Mây Linh Hoạt
+*   Người dùng có thể làm chủ và tương tác với các dịch vụ đám mây thông qua nhiều phương thức thân thiện như AWS Management Console, CLI (Command Line Interface) hoặc SDKs.
 
 ---
 
-### Bài học rút ra
-*   **Kiến thức quan trọng nhất**: AI sẽ trở thành công cụ hỗ trợ đắc lực trong lĩnh vực Cloud, tuy nhiên người kỹ sư vẫn cần có kiến thức nền tảng vững chắc để đánh giá, kiểm chứng và đưa ra quyết định chính xác.
-*   **Kinh nghiệm thực tế**: Việc kết hợp giữa kỹ năng chuyên môn và AI sẽ giúp nâng cao năng suất làm việc, giảm các tác vụ thủ công và tối ưu quy trình quản trị hạ tầng Cloud.
-*   **Định hướng học tập tiếp theo**: Tiếp tục tìm hiểu về AI Agent, Cloud Automation, DevOps và các dịch vụ AI trên AWS để nâng cao kỹ năng triển khai, quản trị và vận hành hệ thống Cloud trong thực tế.
+## TRẢI NGHIỆM SỰ KIỆN (EVENT EXPERIENCE)
+
+*   Sự kiện cung cấp một lộ trình kiến thức rất cân bằng, hỗ trợ cả những người mới bắt đầu (với các định nghĩa cơ bản về IaaS, PaaS, SaaS) lẫn các kỹ sư DevOps/System dày dặn kinh nghiệm đang tìm kiếm kiến thức về bảo mật phần cứng (bare metal) và quản lý hypervisor.
+*   Không chỉ tập trung vào mã nguồn hay hạ tầng, sự kiện còn mang đến không gian để các chuyên gia công nghệ trau dồi cách mở rộng cơ hội việc làm thông qua truyền thông cá nhân trên LinkedIn.
 
 ---
 
-### Một số hình ảnh khi tham gia sự kiện
+## BÀI HỌC KINH NGHIỆM (LESSONS LEARNED)
 
-![Slide giới thiệu về AgenticOps cho hạ tầng Cloud](/images/4-eventparticipated/event2/slide_agenticops.jpg?v=2)
+*   **Tính Toán Lộ Trình Nâng Cấp (Migration Path)**: Đừng mặc định chọn các máy chủ dùng riêng đắt tiền "chỉ để phòng hờ"; thay vào đó, hãy vạch ra một lộ trình mở rộng tài nguyên linh hoạt và thiết lập mô hình tính toán tổng chi phí sở hữu (TCO) trong vòng 3 năm.
+*   **Cấp Phát Tài Nguyên Vừa Đủ (Right-Size)**: Hãy cấp phát tài nguyên đáp ứng chính xác nhu cầu hiện tại của hệ thống trước khi đưa ra các quyết định mở rộng không cần thiết nhằm tối ưu hóa chi phí.
+*   **Bổ Sung Kỹ Năng Mềm Xây Dựng Hình Ảnh**: Dù kiến thức kỹ thuật có tốt đến đâu, năng lực đó cần được hiển thị và tiếp thị đúng cách thông qua hình ảnh chuyên nghiệp trên mạng xã hội.
 
-![Toàn cảnh diễn giả chia sẻ tại hội trường sự kiện FCAJ Community Day](/images/4-eventparticipated/event2/event_hall_presentation.jpg?v=2)
+---
 
-![Hình ảnh tập thể tất cả các thành viên tham gia sự kiện FCAJ Community Day](/images/4-eventparticipated/event2/group_photo_fcaj.png?v=2)
+## HÌNH ẢNH SỰ KIỆN (EVENT PHOTOS)
+
+![Slide chuyên đề The Very First Step Into Cloud của diễn giả Phương Nguyễn Hữu](/images/4-eventparticipated/event2/speaker-phuong-nguyen-huu.png)
+
+*Chuyên đề "The Very First Step Into Cloud" - Diễn giả Phương Nguyễn Hữu*
+
+---
+
+![Slide chuyên đề Right Server, Right Job của diễn giả Quang Pham](/images/4-eventparticipated/event2/speaker-quang-pham.png)
+
+*Chuyên đề "Right Server, Right Job" - Diễn giả Quang Pham (DevOps Engineer)*
+
+---
+
+![Slide chuyên đề Xây dựng LinkedIn và hình ảnh chuyên nghiệp trên MXH - Personal Branding](/images/4-eventparticipated/event2/speaker-personal-branding.png)
+
+*Chuyên đề "Xây dựng LinkedIn và hình ảnh chuyên nghiệp trên MXH - Personal Branding"*
+
+---
+
+![Toàn thể diễn giả và các bạn thành viên tham gia sự kiện AWS Community Meetup Phần 2](/images/4-eventparticipated/event2/group-photo-event2.png)
+
+*Toàn thể diễn giả và các bạn thành viên tham gia sự kiện AWS Community Meetup (Phần 2) tại văn phòng AWS Hà Nội*

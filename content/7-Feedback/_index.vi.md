@@ -6,39 +6,42 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-Trải qua kỳ thực tập **First Cloud AI Journey** đầy ý nghĩa, tôi xin chia sẻ những ý kiến cá nhân và đóng góp phản hồi dưới đây nhằm góp phần hoàn thiện chương trình cho các khóa sau:
+Trải qua kỳ thực tập **Workforce Bootcamp - First Cloud AI Journey** đầy ý nghĩa tại **AWS Việt Nam**, với tư cách là một sinh viên chuyên ngành **Mạng máy tính và truyền thông dữ liệu** thuộc **Trường Đại học Xây Dựng Hà Nội**, tôi xin chia sẻ những góc nhìn, trải nghiệm thực tế và đóng góp ý kiến nhằm hoàn thiện chương trình cho các khóa tiếp theo:
 
 ### Đánh giá chung về chương trình
 
 **1. Môi trường học tập và làm việc**  
-Chương trình được tổ chức rất chuyên nghiệp và bài bản. Hệ thống tài liệu hướng dẫn học tập rõ ràng, sơ đồ lộ trình (roadmap) chi tiết giúp thực tập sinh dễ dàng theo dõi tiến độ của bản thân qua từng tuần. Sự kết hợp giữa tự học và các buổi workshop giúp tăng tính linh hoạt tối đa.
+Chương trình được thiết kế rất khoa học và thực tế. Các bài giảng kết hợp chặt chẽ với hệ thống bài lab thực hành, giúp thực tập sinh không chỉ nắm chắc lý thuyết dịch vụ đám mây AWS mà còn có cơ hội áp dụng trực tiếp vào dự án lớn (**FCAJ AWS DevSecOps Pipeline Workshop**). Lộ trình theo dõi tiến độ rõ ràng giúp sinh viên chủ động quản lý thời gian và nâng cao tính tự giác.
 
 **2. Sự hỗ trợ từ Mentor & Đội ngũ Admin**  
-Đội ngũ Mentor rất giàu kinh nghiệm và nhiệt huyết. Khi tôi gặp khó khăn trong việc cấu hình mạng bảo mật hoặc gỡ lỗi CI/CD, các Mentor luôn hướng dẫn phương pháp tư duy kiểm tra log hệ thống thay vì đưa ra đáp án có sẵn, giúp tôi cải thiện kỹ năng giải quyết vấn đề. Ban Admin cũng hỗ trợ kỹ thuật và cấp phát tài khoản thực hành AWS Free Tier rất nhanh chóng.
+Đội ngũ Mentor sở hữu chuyên môn sâu rộng và phong cách hướng dẫn tận tâm. Trong quá trình triển khai các cấu hình phức tạp (như phân quyền IAM đặc quyền tối thiểu, thiết lập 4 cổng bảo mật CodeBuild, hay xử lý xung đột state lock trong Terraform), các Mentor luôn định hướng phương pháp phân tích log (CloudWatch Logs) và tư duy gỡ lỗi (troubleshooting) từ gốc rễ thay vì cung cấp ngay giải pháp sẵn có. Ban Admin cũng hỗ trợ kỹ thuật và môi trường thực hành AWS rất kịp thời.
 
-**3. Sự phù hợp với chuyên ngành học**  
-Là sinh viên chuyên ngành **An Ninh Mạng** của Đại học HUTECH, tôi thấy các nội dung thực hành rất sát với thực tế ngành. Việc tự tay cấu hình VPC Isolation, Public/Private Subnets, thiết lập Security Groups, Network ACLs và kiểm soát quyền hạn tối thiểu (Least Privilege) với IAM Policy giúp tôi hiểu sâu sắc cách bảo mật hạ tầng đám mây.
+**3. Sự phù hợp với chuyên ngành Mạng máy tính & Truyền thông dữ liệu**  
+Là sinh viên ngành **Mạng máy tính và truyền thông dữ liệu**, tôi nhận thấy dự án thực tập có sự gắn kết vô cùng chặt chẽ với ngành học:
+*   Vận dụng trực tiếp các kiến thức nền tảng về định tuyến (Routing), phân vùng mạng con (Subnetting) và cổng mạng (Internet Gateway) vào việc thiết kế kiến trúc **Amazon VPC**.
+*   Hiểu rõ cơ chế kiểm soát gói tin và an ninh mạng thông qua **Security Groups** và **Network ACLs**, đặc biệt là quy chuẩn đóng hoàn toàn cổng quản trị SSH (port 22) ra Internet và thay thế bằng **AWS Systems Manager (SSM) Session Manager**.
+*   Trải nghiệm thực tế cách tự động hóa hạ tầng mạng bằng mã (**Terraform IaC**) và thiết lập các chốt chặn an ninh Shift-Left (**Checkov, Gitleaks, Bandit, Trivy**) trong quy trình phân phối phần mềm liên tục.
 
 **4. Cơ hội học hỏi & Phát triển kỹ năng**  
-Chương trình là cơ hội lớn để tôi tiếp cận với các công nghệ đám mây hiện đại như Serverless (Lambda, API Gateway), Container (Docker, ECS) và hạ tầng dưới dạng mã (Terraform, CloudFormation). Ngoài kỹ năng chuyên môn, tôi còn cải thiện kỹ năng viết báo cáo kỹ thuật và quản lý thời gian.
+Kỳ thực tập đã giúp tôi phát triển toàn diện cả về kỹ năng cứng lẫn kỹ năng mềm: từ việc làm chủ quy trình CI/CD tự động với AWS CodePipeline, tư duy bảo mật Shift-Left trong chuỗi cung ứng phần mềm, cho đến kỹ năng viết tài liệu kỹ thuật chuẩn mực và quản lý công việc theo mốc thời gian.
 
-**5. Văn hóa & Tinh thần đồng đội**  
-Văn hóa chia sẻ kiến thức (knowledge sharing) tại AWS Study Group hoạt động rất sôi nổi. Mọi người đều cởi mở, không ngại đặt câu hỏi và tích cực giúp đỡ lẫn nhau vượt qua các bài lab khó.
+**5. Văn hóa & Tinh thần cộng đồng**  
+Văn hóa chia sẻ cởi mở tại **AWS Study Group** và cộng đồng **First Cloud Journey (FCAJ)** là nguồn động lực rất lớn. Việc tham gia các sự kiện thực tế như **AWS Vietnam Community Meetup** tại văn phòng AWS Hà Nội giúp tôi mở rộng tầm nhìn về xu hướng công nghệ (AI Agents, Cloud Infrastructure) và xây dựng mạng lưới quan hệ nghề nghiệp quý báu.
 
 ---
 
 ### Trả lời câu hỏi khảo sát
 
 *   **Điều bạn hài lòng nhất trong thời gian thực tập?**  
-    Đó là việc được cấp tài khoản AWS thực hành trực tiếp (hands-on) trên các dịch vụ đám mây thực tế, giúp biến các kiến thức lý thuyết trừu tượng thành sản phẩm thực tế chạy được.
+    Đó là việc được tự tay thiết kế và vận hành hoàn chỉnh một hệ sinh thái DevSecOps tự động hóa 100% trên AWS: từ khâu push code trên GitHub, tự động quét phát hiện lỗ hổng qua 4 security gates, tạo bản kế hoạch thay đổi hạ tầng có cổng phê duyệt (Manual Approval), đến tự động triển khai và chạy smoke test xác thực thành công trên máy chủ EC2.
 *   **Điều bạn nghĩ chương trình cần cải thiện cho các khóa sau?**  
-    Nên bổ sung thêm một số buổi thảo luận nhóm nhỏ (study group check-in) định kỳ hàng tuần để các thực tập sinh có thể giao lưu trực tiếp và chia sẻ các lỗi cấu hình thường gặp.
+    Có thể bổ sung thêm các buổi trao đổi kỹ thuật nhóm nhỏ (Tech Sharing Check-in) giữa các thực tập sinh để cùng nhau thảo luận các lỗi thường gặp trong quá trình làm việc với Terraform và CodePipeline.
 *   **Bạn có khuyên bạn bè tham gia chương trình này không?**  
-    Chắc chắn có. Đây là chương trình thực hành đám mây bài bản nhất giúp sinh viên rút ngắn khoảng cách giữa nhà trường và doanh nghiệp.
+    Chắc chắn có. Đây là một chương trình đào tạo thực chiến xuất sắc, là cầu nối vững chắc giúp sinh viên ngành mạng và công nghệ thông tin tự tin bước vào môi trường doanh nghiệp điện toán đám mây.
 
 ---
 
 ### Đề xuất & Mong muốn
 
-*   **Đề xuất**: Ban tổ chức có thể thiết kế thêm các buổi chia sẻ chuyên sâu (Deep Dive) về các sự cố bảo mật thực tế trên cloud để sinh viên ngành An ninh mạng có thêm góc nhìn thực tiễn.
-*   **Mong muốn**: Mong muốn được tiếp tục đồng hành và tham gia các hoạt động cộng đồng của AWS Study Group trong tương lai để tiếp tục cập nhật công nghệ mới.
+*   **Đề xuất**: Ban tổ chức có thể mở rộng thêm một số chuyên đề nâng cao về kiến trúc mạng đám mây phân tán (Transit Gateway, VPC Peering, Hybrid Cloud qua AWS Outposts) và tích hợp các công cụ quan sát chuyên sâu (AWS X-Ray, CloudWatch Container Insights) cho các dự án sau.
+*   **Mong muốn**: Tiếp tục đồng hành, tích cực tham gia các buổi sinh hoạt chuyên môn của cộng đồng AWS Việt Nam và chia sẻ lại kinh nghiệm cho các bạn sinh viên khóa sau.

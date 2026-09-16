@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Internship Report"
 date: 2024-01-01
 weight: 1
@@ -10,31 +10,30 @@ chapter: false
 
 
 ### Student Information:
-&emsp; **Full Name:** Đoàn Minh Quân
+&emsp; **Full Name:** Nguyen Binh An
 
-&emsp; **Phone Number:** 0913998757 
+&emsp; **Phone Number:** 0368868565
 
-&emsp; **Email:** doanminhquan969@gmail.com
+&emsp; **Email:** ngbinhan2812@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
+&emsp; **GitHub:** [BinhAnn051228 (Nguyễn Bình An)](https://github.com/BinhAnn051228)
 
-&emsp; **Major:** Cybersecurity
+&emsp; **University:** Hanoi University of Civil Engineering
 
-&emsp; **Class:** 22DTHE4
+&emsp; **Major:** Computer Networks and Data Communication
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 05-05-2026 to 30-07-2026
+&emsp; **Internship Duration:** From 03-08-2026 to 27-09-2026
 
-![Your profile picture](/images/avatar.png)
-
+![Your profile picture](/images/Avatar.png)
 ### Report Content
 
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)
-3.  [BlogsPosted](3-BlogsPosted/)
+3.  [BlogsPosted](3-BlogPosted/)
 4.  [Events Participated](4-EventParticipated/)
 5.  [Workshop](5-Workshop/)
 6.  [Self-evaluation](6-Self-evaluation/)

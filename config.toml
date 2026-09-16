@@ -1,4 +1,4 @@
-baseURL = "https://quan1407.github.io/MinhQuanAWS/"
+baseURL = "https://BinhAnn051228.github.io/BinhAnAWS/"
 relativeURLs = false
 canonifyURLs = true
 defaultContentLanguage = "en"
@@ -14,9 +14,9 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = ""
-  description = ""
-  author = "thienlh@thienlu.com"
+  editURL = "https://github.com/BinhAnn051228/BinhAnAWS/edit/main/content/"
+  description = "AWS DevSecOps Internship Report - Nguyen Binh An"
+  author = "Nguyễn Bình An"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -28,6 +28,12 @@ weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> GitHub - BinhAnn051228"
+identifier = "GitHub Profile"
+url = "https://github.com/BinhAnn051228"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
 identifier = "AWS Study Group"
 url = "https://awsstudygroup.com"
@@ -37,12 +43,18 @@ weight = 20
 name = "<i class='fab fa-facebook'></i> AWS Study Group - FB Group"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
-weight = 20
+weight = 30
 
 [Languages.vi]
 title = "Báo cáo thực tập"
 weight = 2
 languageName = "Tiếng Việt"
+
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> GitHub - BinhAnn051228"
+identifier = "GitHub Profile"
+url = "https://github.com/BinhAnn051228"
+weight = 10
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
@@ -54,7 +66,7 @@ weight = 20
 name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
-weight = 20
+weight = 30
 
 [markup]
   [markup.goldmark]
