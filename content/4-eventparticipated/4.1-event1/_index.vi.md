@@ -15,23 +15,23 @@ aliases:
 
 ## AWS VIETNAM COMMUNITY MEETUP
 
-### Thông tin sự kiện (Event Information)
+### Thông tin sự kiện
 
 | Mục | Chi tiết |
 | :--- | :--- |
-| **Tên sự kiện (Event Name)** | AWS Vietnam Community Meetup |
-| **Ngày tổ chức (Date)** | Thứ Bảy, ngày 25/07/2026 |
-| **Thời gian (Time)** | 08:30 – 12:00 (GMT+7) |
-| **Địa điểm (Location)** | Tầng 7, Grand Terra Tower, 36 Cát Linh, Đống Đa, Hà Nội |
-| **Vai trò (Role)** | Người tham dự (Attendee) |
+| **Tên sự kiện** | AWS Vietnam Community Meetup |
+| **Ngày tổ chức** | Thứ Bảy, ngày 25/07/2026 |
+| **Thời gian** | 08:30 – 12:00 (GMT+7) |
+| **Địa điểm** | Tầng 7, Grand Terra Tower, 36 Cát Linh, Đống Đa, Hà Nội |
+| **Vai trò** | Người tham dự |
 
 ---
 
-## BÁO CÁO TÓM TẮT (SUMMARY REPORT)
+## BÁO CÁO TÓM TẮT
 
 Các tài liệu từ sự kiện AWS Vietnam Community Meetup bao quát một phạm vi rộng lớn các chủ đề công nghệ, từ các khái niệm điện toán đám mây nền tảng đến các triển khai Trí tuệ Nhân tạo (AI) tiên tiến. Chủ đề cốt lõi xuyên suốt các phiên trình bày tập trung vào cách Generative AI và các AI agents đang định hình lại cơ bản việc phát triển phần mềm, quản lý hạ tầng và hoạt động kinh doanh. Các bài thuyết trình cùng nhấn mạnh rằng mặc dù AI làm tăng tốc đáng kể một số tác vụ nhất định, nó cũng đòi hỏi một sự thay đổi lớn trong cách các kỹ sư quản lý điểm nghẽn, thiết kế kiến trúc hệ thống và bảo mật các quy trình tự động.
 
-### Danh sách Diễn giả (Speakers)
+### Danh sách Diễn giả
 
 *   **Nam Lã** - Cloud Engineer *(Chủ đề: AI Trends Through the Lens of an Infrastructure Engineer)*
 *   **Henry (Đức) Bùi** - Head of Engineering, Cloud Thinker *(Chủ đề: Ship Fast with AI, Not by AI)*
@@ -42,7 +42,7 @@ Các tài liệu từ sự kiện AWS Vietnam Community Meetup bao quát một p
 
 ---
 
-## ĐIỂM NỔI BẬT (KEY HIGHLIGHTS)
+## ĐIỂM NỔI BẬT
 
 ### Nền tảng AWS Cloud
 *   Giới thiệu về điện toán đám mây bao gồm các mô hình dịch vụ cơ bản (IaaS, PaaS, SaaS), các chiến lược triển khai và lợi ích của việc tận dụng hạ tầng toàn cầu của AWS.
@@ -62,7 +62,7 @@ Các tài liệu từ sự kiện AWS Vietnam Community Meetup bao quát một p
 
 ---
 
-## BÀI HỌC RÚT RA CHÍNH (KEY TAKEAWAYS)
+## BÀI HỌC RÚT RA CHÍNH
 
 ### Kinh Tế Đám Mây
 *   Việc chuyển đổi lên đám mây cho phép các tổ chức đổi các khoản đầu tư lớn về vốn cho trung tâm dữ liệu thành chi phí biến đổi, làm tăng đáng kể tốc độ và sự linh hoạt của tổ chức.
@@ -81,7 +81,7 @@ Các tài liệu từ sự kiện AWS Vietnam Community Meetup bao quát một p
 
 ---
 
-## TRẢI NGHIỆM SỰ KIỆN (EVENT EXPERIENCE)
+## TRẢI NGHIỆM SỰ KIỆN
 
 *   Sự kiện mang đến một hành trình công nghệ toàn diện, phục vụ cả những người mới muốn hiểu những điều cơ bản về đám mây và truy cập tín dụng AWS Free Tier, cũng như các nhà phát triển dày dạn kinh nghiệm khám phá những công nghệ tiên tiến nhất của AI agents và DevSecOps.
 *   Người tham dự được tiếp xúc với các màn trình diễn thực tế về khả năng của AI, từ việc tạo module Terraform bằng ngôn ngữ tự nhiên đến việc triển khai các luồng công việc đa tác nhân (multi-agent) có thể tự động ghi lại cuộc họp và phân phối bản tóm tắt mà không cần sự can thiệp của con người.
@@ -89,7 +89,7 @@ Các tài liệu từ sự kiện AWS Vietnam Community Meetup bao quát một p
 
 ---
 
-## BÀI HỌC KINH NGHIỆM (LESSONS LEARNED)
+## BÀI HỌC KINH NGHIỆM
 
 *   **Tập Trung Vào Kỹ Sư, Không Phải Agent**: Mục tiêu của việc tích hợp AI vào phát triển không phải là xây dựng một siêu tác nhân (superpowered agent), mà là xây dựng một siêu kỹ sư (superpowered engineer) vẫn đóng vai trò là tác giả của hệ thống.
 *   **Niềm Tin Phải Được Thực Thi, Không Phải Giả Định**: Dựa vào các kỹ năng AI do cộng đồng xây dựng gây ra rủi ro chuỗi cung ứng nghiêm trọng. Sự tin cậy trong các hệ thống agent phải được thực thi rõ ràng thông qua các chính sách sandboxing và zero-trust.
@@ -98,7 +98,7 @@ Các tài liệu từ sự kiện AWS Vietnam Community Meetup bao quát một p
 
 ---
 
-## HÌNH ẢNH SỰ KIỆN (EVENT PHOTOS)
+## HÌNH ẢNH SỰ KIỆN
 
 ![Poster sự kiện AWS Vietnam Community Meetup - AI Revolution & Open Claw](/images/4-eventparticipated/event1/poster-event1.png)
 

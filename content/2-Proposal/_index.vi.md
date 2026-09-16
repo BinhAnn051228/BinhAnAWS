@@ -9,12 +9,12 @@ pre: " <b> 2. </b> "
 # Đề xuất Kiến trúc DevSecOps trên AWS
 ## CI/CD Pipeline tích hợp Bảo mật và Tối ưu chi phí
 
-### 1. Đặt vấn đề (The Problem)
+### 1. Đặt vấn đề
 Trong quá trình phát triển và vận hành phần mềm, việc triển khai hạ tầng thủ công tiềm ẩn nhiều rủi ro về sai sót cấu hình và tốn kém thời gian. Đặc biệt, nếu các vấn đề bảo mật chỉ được phát hiện ở giai đoạn cuối của quá trình phát triển (hoặc sau khi đã triển khai lên Production), chi phí và công sức để khắc phục sẽ rất lớn.
 
 Do đó, việc áp dụng **Shift-Left Security** – đưa các bước kiểm tra bảo mật (quét mã nguồn, kiểm tra thư viện phụ thuộc, quét cấu hình hạ tầng) vào giai đoạn sớm nhất của quy trình CI/CD là vô cùng quan trọng. Nó giúp phát hiện và ngăn chặn lỗ hổng ngay từ khi lập trình viên đẩy code lên hệ thống.
 
-### 2. Thiết kế Giải pháp (Architecture Design)
+### 2. Thiết kế Giải pháp
 Giải pháp đề xuất xây dựng một quy trình **DevSecOps** tự động hoàn toàn trên AWS, sử dụng các dịch vụ Managed Services kết hợp với các công cụ bảo mật mã nguồn mở để đạt được hiệu quả tối đa với chi phí tối thiểu (tận dụng Free Tier).
 
 ![Sơ đồ kiến trúc giải pháp AWS DevSecOps Pipeline](/images/2-Proposal/architecture.png)
@@ -30,7 +30,7 @@ Giải pháp đề xuất xây dựng một quy trình **DevSecOps** tự độn
 | **Amazon S3** | Lưu trữ Artifacts từ CodePipeline và Terraform State | 5GB Standard Storage miễn phí |
 | **System Manager (SSM)** | Lưu trữ các biến môi trường nhạy cảm (API Keys, DB Pass) | Standard parameters miễn phí 100% |
 
-### 3. Triển khai Thực tế (Implementation)
+### 3. Triển khai Thực tế
 Quy trình thiết lập dự án tuân thủ thứ tự chặt chẽ để đảm bảo hạ tầng được cấp quyền và bảo mật từ những bước đầu tiên:
 
 1. **Khởi tạo Backend lưu trữ và Quản lý Secrets**: 
@@ -47,7 +47,7 @@ Quy trình thiết lập dự án tuân thủ thứ tự chặt chẽ để đ�
    - **Stage 2 (Test & Scan)**: Chạy quét bảo mật với CodeBuild. Ngừng pipeline nếu có lỗi CRITICAL/HIGH.
    - **Stage 3 (Deploy)**: Tự động apply hạ tầng Terraform qua CodeBuild.
 
-### 4. Trình diễn DevSecOps (Demo/PoC)
+### 4. Trình diễn DevSecOps
 Kịch bản demo:
 - Cố tình viết một đoạn code chứa lỗ hổng hoặc cấu hình Terraform mở port 22 ra public (0.0.0.0/0).
 - Push code lên nhánh chính.

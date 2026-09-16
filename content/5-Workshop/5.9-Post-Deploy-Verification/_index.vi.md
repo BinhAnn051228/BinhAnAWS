@@ -12,7 +12,7 @@ Chương này hướng dẫn cấu hình giai đoạn kiểm thử tự động 
 
 ---
 
-### Cơ chế kiểm thử tự động (Automated Smoke Test)
+### Cơ chế kiểm thử tự động Smoke Test
 
 Giai đoạn Smoke Test được thực thi bởi AWS CodeBuild sử dụng file cấu hình `cicd/buildspec-apply.yml` với chế độ `RUN_MODE=smoke`:
 

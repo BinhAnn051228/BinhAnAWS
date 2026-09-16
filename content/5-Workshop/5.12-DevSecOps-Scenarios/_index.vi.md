@@ -12,7 +12,7 @@ Chương này chứng minh hiệu quả thực tế của các cổng kiểm so�
 
 ---
 
-### Kịch bản 1: Triển khai thành công trên đường cơ sở sạch (Baseline Succeeded)
+### Kịch bản 1: Triển khai thành công với Baseline chuẩn
 
 - **Mục tiêu**: Xác nhận toàn bộ chuỗi CI/CD hoạt động trơn tru khi mã nguồn và hạ tầng tuân thủ đầy đủ các chuẩn an ninh.
 - **Kết quả**: Tất cả 7 giai đoạn từ Source đến PostDeployVerification đều chuyển sang màu xanh (`SUCCEEDED`). Ứng dụng web được cập nhật thành công và phản hồi mã `200 OK`.
@@ -31,7 +31,7 @@ Chương này chứng minh hiệu quả thực tế của các cổng kiểm so�
 
 ---
 
-### Kịch bản 3: Gitleaks chặn rò rỉ khóa bí mật (Secret Leakage)
+### Kịch bản 3: Gitleaks chặn rò rỉ khóa bí mật
 
 - **Tình huống**: Thêm một đoạn mã chứa chuỗi giả lập AWS Access Key vào file `app/leak.py`.
 - **Thực thi**:
@@ -63,6 +63,6 @@ Chương này chứng minh hiệu quả thực tế của các cổng kiểm so�
 
 ---
 
-### Đánh giá hiệu quả các cổng an ninh (Security Gates)
+### Đánh giá hiệu quả các cổng an ninh Security Gates
 
 Thông qua các kịch bản thử nghiệm thực tế, hệ thống DevSecOps đã chứng minh khả năng phát hiện sớm và ngăn chặn tự động (Shift-Left) các rủi ro an ninh phổ biến: rò rỉ thông tin đăng nhập, lỗ hổng thư viện bên thứ ba, sai cấu hình hạ tầng đám mây và rủi ro triển khai hạ tầng không kiểm soát.
