@@ -11,15 +11,16 @@ aliases:
   - /4-EventParticipated/4.2-event2/
 ---
 
-# EVENT 2 - AWS COMMUNITY MEETUP (PHẦN 2)
+# EVENT 2 - AWS COMMUNITY MEETUP
 
-## AWS COMMUNITY MEETUP (PHẦN 2)
+## AWS COMMUNITY MEETUP
 
 ### Thông tin sự kiện
 
 | Mục | Chi tiết |
 | :--- | :--- |
-| **Tên sự kiện** | AWS Community Meetup (Phần 2) |
+| **Tên sự kiện** | AWS Community Meetup |
+| **Ngày tổ chức** | Thứ Bảy, ngày 15/08/2026 |
 | **Thời gian** | 08:30 – 12:00 (GMT+7) |
 | **Địa điểm** | Văn phòng AWS Hà Nội – Tầng 7, Grand Terra Tower, 36 Cát Linh, Đống Đa, Hà Nội |
 | **Vai trò** | Người tham dự |
@@ -105,6 +106,6 @@ Các tài liệu này cung cấp một góc nhìn toàn diện, từ những bư
 
 ---
 
-![Toàn thể diễn giả và các bạn thành viên tham gia sự kiện AWS Community Meetup Phần 2](/images/4-eventparticipated/event2/group-photo-event2.png)
+![Toàn thể diễn giả và các bạn thành viên tham gia sự kiện AWS Community Meetup](/images/4-eventparticipated/event2/group-photo-event2.png)
 
-*Toàn thể diễn giả và các bạn thành viên tham gia sự kiện AWS Community Meetup (Phần 2) tại văn phòng AWS Hà Nội*
+*Toàn thể diễn giả và các bạn thành viên tham gia sự kiện AWS Community Meetup tại văn phòng AWS Hà Nội*

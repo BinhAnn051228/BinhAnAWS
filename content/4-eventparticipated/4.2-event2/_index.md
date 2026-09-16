@@ -11,15 +11,16 @@ aliases:
   - /4-EventParticipated/4.2-event2/
 ---
 
-# EVENT 2 - AWS COMMUNITY MEETUP (PART 2)
+# EVENT 2 - AWS COMMUNITY MEETUP
 
-## AWS COMMUNITY MEETUP (PART 2)
+## AWS COMMUNITY MEETUP
 
 ### Event Information
 
 | Item | Details |
 | :--- | :--- |
-| **Event Name** | AWS Community Meetup (Part 2) |
+| **Event Name** | AWS Community Meetup |
+| **Date** | Saturday, August 15, 2026 |
 | **Time** | 08:30 – 12:00 (GMT+7) |
 | **Location** | AWS Hanoi Office – 7th Floor, Grand Terra Tower, 36 Cat Linh, Dong Da, Hanoi |
 | **Role** | Attendee |
@@ -105,6 +106,6 @@ These materials provide a comprehensive perspective, transitioning from foundati
 
 ---
 
-![Group photo of speakers and participants at AWS Community Meetup Part 2](/images/4-eventparticipated/event2/group-photo-event2.png)
+![Group photo of speakers and participants at AWS Community Meetup](/images/4-eventparticipated/event2/group-photo-event2.png)
 
-*Speakers and attendees group photo at AWS Community Meetup (Part 2) at AWS Hanoi Office*
+*Speakers and attendees group photo at AWS Community Meetup at AWS Hanoi Office*

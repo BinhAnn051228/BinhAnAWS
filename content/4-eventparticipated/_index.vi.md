@@ -20,9 +20,9 @@ Trong quá trình thực tập, em đã tham gia các sự kiện với mỗi s�
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 ### [Event 2](4.2-event2/)
-&emsp;**Tên sự kiện:** AWS Community Meetup (Phần 2)
+&emsp;**Tên sự kiện:** AWS Community Meetup
 
-&emsp;**Thời gian:** 08:30 – 12:00
+&emsp;**Thời gian:** 08:30 – 12:00 | Thứ Bảy, ngày 15/08/2026
 
 &emsp;**Địa điểm:** Văn phòng AWS Hà Nội – Tầng 7, Grand Terra Tower, 36 Cát Linh, Đống Đa, Hà Nội
 

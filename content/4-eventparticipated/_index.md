@@ -20,9 +20,9 @@ During my internship, I participated in events that provided valuable insights i
 &emsp;**Role:** Participant
 
 ### [Event 2](4.2-event2/)
-&emsp;**Event Title:** AWS Community Meetup (Part 2)
+&emsp;**Event Title:** AWS Community Meetup
 
-&emsp;**Date:** 08:30 – 12:00
+&emsp;**Date:** 08:30 – 12:00 | Saturday, August 15, 2026
 
 &emsp;**Location:** AWS Hanoi Office – 7th Floor, Grand Terra Tower, 36 Cat Linh, Dong Da, Hanoi
 
